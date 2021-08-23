@@ -1,0 +1,493 @@
+
+	* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: calibri;
+    }
+           
+.navigation-img{
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .navigation-img{  
+        width: 100%;
+        height:490px;
+       }
+  }
+
+
+.feather {
+    width: 41px;
+    height: 24px;
+    stroke:black;
+    stroke-width: 3.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+  }
+  .arrow {
+display: flex;
+justify-content: center;
+align-items: center;
+margin:50px auto;
+stroke: white;
+width: 51px;
+    height: 124px;
+  }
+
+#menuicon{
+    stroke:white;
+
+}
+
+.menu-icon{
+    stroke:white;
+    position:absolute;
+    top: 20px;
+    right: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#menuicon{
+    width: 30px;
+}
+.menu-box{
+    position:absolute;
+    width: 94vw;
+    bottom: 6%;
+    left: 2%;
+}
+
+@media (max-width: 600px) {
+    .menu-box{  
+position: absolute;
+width: 92vw;
+}
+  }
+
+
+.menu-desc{
+    width: 80%;
+display: flex;
+align-items: center;
+justify-content:space-around;
+margin:0 auto;
+}
+
+@media (max-width: 600px) {
+    .menu-desc {  
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin:0 auto;
+       }
+  }
+
+.menu-desc >  h1{
+    font-size:90px;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.menu-desc > p{
+    width: 70vw;
+    padding: 60px 30px;
+    background-color: white;
+    font-size:17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0 70px;
+}
+
+.story-sec{
+    background-color:#e6b3cc;
+    margin: 0 auto;
+    padding: 100px 100px;
+    margin-top:-10px;
+}
+
+@media (max-width: 600px) {
+    .story-sec{  
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: -1% auto;
+padding: 50px 0;
+}
+  }
+
+  @media (max-width: 600px) {
+    .story-sec > h1{
+        width: 95%;
+    }
+  }
+
+ 
+
+
+.story-sec > h1 {
+    font-style: italic;
+    color:white;
+    width: 85%;
+    font-size:32px;
+    line-height: 1.4;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.story-sec > h1 > span {
+    font-size: 70px;
+    font-family:'Times New Roman', Times, serif;
+}
+.story-sec > p {
+    padding: 20px 0;
+    width:35%;
+    line-height: 1.4;
+    color:white;
+}
+@media (max-width: 600px) {
+    .story-sec > p{
+        width: 79%;
+        font-size:1.1rem;
+       
+    }
+  }
+   
+    
+.img-section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.img-section >img{
+    max-width:449px;
+    width:100%;
+}
+
+@media (max-width: 600px) {
+    .img-section >img {  
+width: 100%;
+max-width:none;
+       }
+  }
+
+
+.form-section{
+    background-color: #e6b3cc;
+    text-align: center;
+  
+}
+
+.form-section > h1 {
+    font-size: 70px;
+    color:white;
+    padding-top: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.form-section > p{
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    padding: 20px;
+}
+
+#form{
+    margin-top:35px;
+    padding-bottom: 35px;
+}
+
+@media (max-width: 600px) {
+    #form{  
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+       }
+  }
+  
+
+#name{
+   width:17%;
+   padding: 10px 12px;
+   font-size: 18px;
+    border:1px solid silver;
+    border-radius: 25px;
+}
+
+@media (max-width: 600px) {
+    #name{  
+width: 49%;
+margin: 10px 0px;
+       }
+  }
+
+#email{
+    width:17%;
+    padding: 10px 12px;
+    font-size: 18px;
+     border:1px solid silver;
+     border-radius: 25px;
+     margin:0 5px;
+ }
+
+ @media (max-width: 600px) {
+    #email{  
+width: 49%;
+       }
+  }
+
+ #btn{
+    width:10%;
+    padding: 10px 12px;
+    font-size: 14px;
+     border:1px solid silver;
+     border-radius: 25px;
+     background-color: black;
+     color: white;
+ }
+
+ @media (max-width: 600px) {
+    #btn{  
+width: 49%;
+margin: 10px 0;
+padding: 12px 0;
+       }
+  }
+
+.about-sec{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin:100px auto;
+ width: 75%;
+
+}
+
+@media (max-width: 600px) {
+    .about-sec {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      margin:10px auto;
+      justify-content: center;
+      align-items: center;
+       }
+  }
+  
+
+
+ #about-img{
+width:400px;
+ }
+
+ .about-desc{
+     width: 40vw;
+     padding: 20px;
+ }
+
+ @media (max-width: 600px) {
+    .about-desc{  
+      width: 79vw;
+       }
+  }
+  
+
+
+ .about-desc > p {
+    font-size: 20px;
+    line-height: 1.5;
+ }
+ 
+ .cloth-sec{
+    background-color: #e6b3cc;
+    padding-top: 50px;
+ }
+
+  
+@media (max-width: 600px) {
+    .tshirt-sec {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin:10px auto;
+      justify-content: center;
+      align-items: center;
+       }
+  }
+  
+ 
+ .cloth-sec > h2{
+text-align: center; 
+font-family: 'Times New Roman', Times, serif;
+font-size: 60px;
+font-style: italic;
+color: white;
+padding: 20px;
+}
+
+ #cloth-sec{
+     display: flex;
+     flex-wrap: wrap;
+     width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+ }
+
+ .tshirt-sec > img{
+     width:250px;
+     height: 300px;
+     margin: 0 3px;
+ }
+
+ @media (max-width: 600px) {
+    .tshirt-sec > img {
+ margin:10px 0px;      }
+  }
+  
+ .sample-prod{
+    padding: 50px 0;
+ }
+ .samples-box{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;   
+ }
+
+ .samples-box > img{
+     width: 279px;
+     height: 370px;
+     padding: 10px;
+ }
+ .samples-box > #sample-desc {
+  width:260px;
+  height: 350px;
+  padding: 40px 10px;
+  margin: 0 10px;
+ }
+
+ #sample-desc > h2{
+ font-weight: 350;
+ font-size:37px;
+ text-align: cener;
+ font-family: Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ #sample-desc > p:nth-child(2){
+  font-size:27px;
+  font-weight: 900;
+  padding:15px 0px;
+ }
+
+ #sample-desc > p:nth-child(3){
+    font-size:1.0rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    padding:10px 0px;
+   }
+
+   .cart-btn{
+       width: 150px;
+      margin:10px 0px;
+       background-color: black;
+       border: 1px solid black;
+       padding: 9px 15px;
+       border-radius: 20px;
+       color:white;
+       font-size: 1.0rem;
+   }
+
+   .subscribe-section{
+       display: flex;
+   }
+
+ 
+@media (max-width: 600px) {
+    .subscribe-section {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+       }
+  }
+  
+  
+   #subscribe-img{
+       max-width: 1000px;
+       width: 100%;
+       height: 700px;
+     
+   }
+
+   .subscribe-desc {
+           width: 50%;
+           margin-top: 17%;
+   }
+
+   .subscribe-desc > h1{
+
+       text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.9rem;
+    font-style: italic;
+    color:black;
+   }
+
+   .subscribe-desc > hr{
+       width: 80%;
+       height: 10px;
+       background-color: pink;
+       margin:0 auto;
+       border: 1px solid pink;
+   }
+
+   #sub-form{
+       padding:15px;
+       margin:0 auto;
+       text-align: center;
+   }
+
+   #sub-email , #sub-name{
+       width: 220px;
+      border: 1px solid silver;
+      font-size:1.1rem;
+      padding: 10px;
+      margin: 5px;
+      border-radius: 2px;
+
+
+   }
+
+   #subscribe-btn{
+       display: flex;
+       padding: 10px 30px;
+       background-color: black;
+       color: white;
+       font-size: 1.15rem;
+       margin: 20px auto;
+       border:1px solid black;
+       border-radius: 29px;
+   }
+
+.social-icons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    padding: 20px 0;
+}
